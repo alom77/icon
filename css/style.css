@@ -1,0 +1,26 @@
+body{
+    margin: 5px;
+    padding: 0;
+}
+.icon-area ul{
+    list-style: none;
+}
+
+.icon-area ul li{
+    display: inline-block;
+}
+
+.icon-area ul li a{
+    background-color: red;
+    color: white;
+    padding: 30px 40px;
+    font-size: 40px;
+    display: block;
+    border-radius: 10px;
+}
+
+.icon-area ul li a:hover{
+    background-color: blue;
+    color: red;
+    transition: 2s;
+}
